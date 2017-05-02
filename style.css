@@ -1,0 +1,71 @@
+html {
+  width: 100%;
+  height: auto;
+  background: url(star-wars.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.name{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.name img{
+  height: 35vmin;
+  width: auto;
+  margin: auto;
+}
+
+.name h1{
+ font-family: 'BioRhyme', serif;
+}
+
+.selectEpisode {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'BioRhyme', serif;
+}
+
+select, input{
+  height: 5vh;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: 'BioRhyme', serif;
+}
+
+input:hover {
+  background-color: #FCDF2B;
+}
+
+.detailsEpisode {
+  width: 90%;
+  margin: auto;
+}
+
+.left {
+  width: 30%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.right {
+  width: 70%;
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+}
+
+#description {
+  font-family: 'Raleway', sans-serif;
+}

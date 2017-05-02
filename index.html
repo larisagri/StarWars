@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>StarWars Api</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme|Raleway" rel="stylesheet">
+  <link rel="icon" type="image/gif/png" href="./logo.png">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="name">
+    <img src="logo.png">
+    <h1>"May the Force be with you!"</h1>
+  </div> <!-- fin name-->
+
+  <div class="selectEpisode">
+    <p>Please select an episode:  </p>
+    <form id="form">
+      <select id="episodes">
+        <option value="1">Episode I</option>
+        <option value="2">Episode II</option>
+        <option value="3">Episode III</option>
+        <option value="4">Episode IV</option>
+        <option value="5">Episode V</option>
+        <option value="6">Episode VI</option>
+      </select>
+      <input id="send" type="submit" name="submit" value="Recover data">
+    </form>
+  </div> <!--fin selectEpisode-->
+
+  <div class="detailsEpisode">
+    <table>
+      <tr>
+        <td class="left"><h3>Title: </h3></td>
+        <td class="right"><h1 id="title"> </h1></td>
+      </tr>
+      <tr>
+        <td class="left"><h3>Number of planets:</h3></td>
+        <td class="right"><h3 id="noPlanetes"> </h3></td>
+      </tr>
+      <tr>
+        <td class="left"><h3>Number of starships:</h3></td>
+        <td class="right"><h3 id="noVaisseaux"> </h3></td>
+      </tr>
+      <tr>
+        <td class="left"><h3>Description: </h3></td>
+        <td class="right"><p id="description"> </p></td>
+      </tr>
+    </table>
+  </div><!--detailsEpisode-->
+
+</div> <!--fin container-->
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
